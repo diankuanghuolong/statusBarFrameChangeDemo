@@ -20,7 +20,7 @@ UIApplicationWillChangeStatusBarFrameNotification
 
 
 具体如下：
-一：在BaseViewController中，监听并处理。（[点击查看]()）
+一：在BaseViewController中，监听并处理。（[点击查看](https://github.com/diankuanghuolong/statusBarFrameChangeDemo/blob/master/statusBarFrameChangeDemo/Base/BaseViewController.m)）
 
 ```
 1.viewDidload中添加监听，如下：
@@ -50,7 +50,7 @@ UIApplicationWillChangeStatusBarFrameNotification
 这里你会发现，self.view.frame.size.height的值是会跟随状态栏的改变而改变的。
 ```
 
-二：通过viewDidLayoutSubviews方法修改需要处理的控件的frame。([点击查看]())
+二：通过viewDidLayoutSubviews方法修改需要处理的控件的frame。([点击查看](https://github.com/diankuanghuolong/statusBarFrameChangeDemo/blob/master/statusBarFrameChangeDemo/StatusBarChangeVC/StatusBarChangeVC.m))
 
 ```
 #pragma mark  =====  viewDidLayoutSubviews  =====
