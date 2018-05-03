@@ -20,6 +20,7 @@ UIApplicationWillChangeStatusBarFrameNotification
 
 
 具体如下：
+
 一：在BaseViewController中，监听并处理。（[点击查看](https://github.com/diankuanghuolong/statusBarFrameChangeDemo/blob/master/statusBarFrameChangeDemo/Base/BaseViewController.m)）
 
 ```
@@ -69,4 +70,4 @@ UIApplicationWillChangeStatusBarFrameNotification
 }
 ```
 
-![展示视图](https://github.com/diankuanghuolong/statusBarFrameChangeDemo/tree/master/statusBarFrameChangeDemo/showImages)
+!(展示视图)[https://github.com/diankuanghuolong/statusBarFrameChangeDemo/tree/master/statusBarFrameChangeDemo/showImages]
