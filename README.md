@@ -1,6 +1,8 @@
 # statusBarFrameChangeDemo
 statusBarFrameChangeDemo
-项目命，首字母小写了，不规范。
+(项目命，首字母小写了，不规范。)
+
+[简书](https://www.jianshu.com/p/790435481d52)
 
 ####
 当我们的APP正在使用的时候，突然有电话打入、开启热点、语音接入、录音开启等情况下，会出现，状态栏高度改变，界面下移的情况。如果我们没有做相关适配，那么有些界面会出现底部按钮遮挡、界面下移导致的部分数据遮挡等等情况。为了处理这种问题，下面提供一种解决思路，如有更好解决方案，万望指教。
@@ -71,4 +73,4 @@ UIApplicationWillChangeStatusBarFrameNotification
 }
 ```
 
-![展示视图](https://github.com/diankuanghuolong/statusBarFrameChangeDemo/tree/master/statusBarFrameChangeDemo/showImages)
+![展示视图](https://github.com/diankuanghuolong/statusBarFrameChangeDemo/blob/master/statusBarFrameChangeDemo/showImages/showGif.gif)
